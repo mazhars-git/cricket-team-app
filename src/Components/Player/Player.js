@@ -1,20 +1,26 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
+import React, { useState } from 'react';
 import './Player.css';
 
 const Player = (props) => {
     const {name, image, salary, job} = props.player;
+    const [clicked, setClicked] = useState(false);
     const playerAddHandler = props.playerAddHandler;
+    
     return (
         <div className="player-box">
             <img src={image} alt=""/>
             <h4>{name}</h4>
             <p><small>{job}</small></p>
             <p>${salary}</p>
-            <button className="btn-style"
-            onClick={() => playerAddHandler(props.player)}
-            ><FontAwesomeIcon icon={faPlusCircle} /></button>
+
+            <button disabled={clicked}
+                className="btn-style"
+                onClick={() => {
+                    playerAddHandler(props.player)
+                    setClicked(true)
+                }}>
+                {clicked ? "already selected" : "select player" }
+            </button>
         </div>
     );
 };
