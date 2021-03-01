@@ -1,0 +1,8 @@
+.team-box{
+    background-color: dodgerblue;
+    border-radius: 10px;
+    border: 1px solid green;
+    width: 40%;
+    text-align: left;
+    padding-left: 100px;
+}

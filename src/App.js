@@ -15,9 +15,8 @@ function App() {
   }, []);
 
   const playerAddHandler = (player) =>{
-    const addedPlayer = [...cart, player];
-    setCart(addedPlayer);
-    console.log(addedPlayer)
+    const newCart = [...cart, player];
+    setCart(newCart);
   }
 
   return (
@@ -26,7 +25,6 @@ function App() {
         <h1>
           Total Players: {players.length}
         </h1>
-        <h3>Added Player: {cart.length}</h3>
         <Team cart={cart}></Team>
         <div className="players">
             {

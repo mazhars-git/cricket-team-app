@@ -11,7 +11,7 @@ const Player = (props) => {
             <img src={image} alt=""/>
             <h4>{name}</h4>
             <p><small>{job}</small></p>
-            <p>{salary}</p>
+            <p>${salary}</p>
             <button className="btn-style"
             onClick={() => playerAddHandler(props.player)}
             ><FontAwesomeIcon icon={faPlusCircle} /></button>

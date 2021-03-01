@@ -1,18 +1,21 @@
 import React from 'react';
+import './Team.css';
 
 const Team = (props) => {
     const cart = props.cart;
+    console.log(cart.salary)
 
-    let totalBudget = 0;
-    for (let i = 0; i < cart.length; i++) {
-        const player = cart[i];
-        totalBudget = totalBudget + player.name;
-        
-    }
+    const total = cart.reduce((total, pl) => Number(total + pl.salary), "");
+    
     return (
-        <div>
-            <h3>Team Member: {cart.length}</h3>
-            <p>Budget: {totalBudget}</p>
+        <div className="team-box">
+            <h3>Team Members: {cart.length}</h3>
+            <p>Total Budget: ${total}</p>
+            <h4>Selected Players Name:</h4>
+            {
+                cart.map(player => <p>{player.name} <br/> <small>Salary: ${player.salary}</small></p>)
+            }
+            
         </div>
     );
 };
