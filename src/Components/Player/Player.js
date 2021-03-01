@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Player.css';
 
 const Player = (props) => {
-    const {name, image, salary, job} = props.player;
+    const {name, image, salary, job, team} = props.player;
     const [clicked, setClicked] = useState(false);
     const playerAddHandler = props.playerAddHandler;
     
@@ -11,6 +11,7 @@ const Player = (props) => {
             <img src={image} alt=""/>
             <h4>{name}</h4>
             <p><small>{job}</small></p>
+            <h5>{team}</h5>
             <p>${salary}</p>
 
             <button disabled={clicked}
