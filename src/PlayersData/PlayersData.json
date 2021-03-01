@@ -1,0 +1,145 @@
+[{
+    "id": 1,
+    "name": "Shakib Al hasan",
+    "gender": "Male",
+    "salary": "$3375.76",
+    "country": "Bangladesh",
+    "phone": "+880 998 475 0133",
+    "image": "https://i.ibb.co/8s6p4T6/Sakib-Al-Hasan.jpg",
+    "job": "All-rounder"
+  }, {
+    "id": 2,
+    "name": "Mushfiqur Rahim",
+    "gender": "Male",
+    "salary": "$4669.45",
+    "country": "Bangladesh",
+    "phone": "+880 275 701 1675",
+    "image": "https://i.ibb.co/qMZJhB9/Mushfiqur-Rahman.jpg",
+    "job": "Wicket-keeper"
+  }, {
+    "id": 3,
+    "name": "Tamim Iqbal",
+    "gender": "Male",
+    "salary": "$1288.59",
+    "country": "Bangladesh",
+    "phone": "+880 715 708 4593",
+    "image": "https://i.ibb.co/0DDr7dy/Tamim-Iqbar.jpg",
+    "job": "Batsman"
+  }, {
+    "id": 4,
+    "name": "Mustafizur Rahman",
+    "gender": "Male",
+    "salary": "$2915.70",
+    "country": "Bangladesh",
+    "phone": "+880 208 132 6719",
+    "image": "https://i.ibb.co/Jyr4LY6/Mustafizur-Rahman.jpg",
+    "job": "Bowler"
+  }, {
+    "id": 5,
+    "name": "Mashrafe Mortaza",
+    "gender": "Male",
+    "salary": "$4423.71",
+    "country": "Bangladesh",
+    "phone": "+880 243 406 8849",
+    "image": "https://i.ibb.co/W0Nbb6s/Mashrafe-Bin-Mortaza.jpg",
+    "job": "Bowler"
+  }, {
+    "id": 6,
+    "name": "Mehidy Hasan",
+    "gender": "Female",
+    "salary": "$1275.66",
+    "country": "Bangladesh",
+    "phone": "+880 914 208 8199",
+    "image": "https://i.ibb.co/3cM3XzT/Mehedi-Hasan-Miraz.jpg",
+    "job": "All-rounder"
+  }, {
+    "id": 7,
+    "name": "Liton Das",
+    "gender": "Male",
+    "salary": "$4524.15",
+    "country": "Bangladesh",
+    "phone": "+880 934 117 2769",
+    "image": "https://i.ibb.co/TcMXmHN/Liton-Das.jpg",
+    "job": "Wicket-keeper"
+  }, {
+    "id": 8,
+    "name": "Mahmudullah",
+    "gender": "Male",
+    "salary": "$3773.52",
+    "country": "Bangladesh",
+    "phone": "+880 789 241 9984",
+    "image": "https://i.ibb.co/QHn13Z9/Mahamudullah-Riyad.jpg",
+    "job": "All-rounder"
+  }, {
+    "id": 9,
+    "name": "Soumya Sarkar",
+    "gender": "Male",
+    "salary": "$3054.30",
+    "country": "Bangladesh",
+    "phone": "+880 498 725 4517",
+    "image": "https://i.ibb.co/JzkDdJs/Soumya-Sarkar.jpg",
+    "job": "All-rounder"
+  }, {
+    "id": 10,
+    "name": "Rubel Hossain",
+    "gender": "Male",
+    "salary": "$1581.61",
+    "country": "Bangladesh",
+    "phone": "+880 310 771 9194",
+    "image": "https://i.ibb.co/crwmtLK/Rubel-Hossain.jpg",
+    "job": "Bowler"
+  }, {
+    "id": 11,
+    "name": "Abu Jayed",
+    "gender": "Male",
+    "salary": "$4390.64",
+    "country": "Bangladesh",
+    "phone": "+880 127 799 6423",
+    "image": "https://i.ibb.co/MPD67yk/Abu-Jayed-Rahi.jpg",
+    "job": "Bowler"
+  }, {
+    "id": 12,
+    "name": "Sabbir Rahman",
+    "gender": "Male",
+    "salary": "$4833.89",
+    "country": "Bangladesh",
+    "phone": "+880 281 558 4329",
+    "image": "https://i.ibb.co/xqZ68h4/Sabbir.jpg",
+    "job": "All-rounder"
+  }, {
+    "id": 13,
+    "name": "Mohammad Mithun",
+    "gender": "Male",
+    "salary": "$1859.88",
+    "country": "Bangladesh",
+    "phone": "+880 912 852 5923",
+    "image": "https://i.ibb.co/9TfYVKj/Mohammad-Mithun.jpg",
+    "job": "Wicket-keeper"
+  }, {
+    "id": 14,
+    "name": "Mohammad Saifuddin",
+    "gender": "Male",
+    "salary": "$1178.95",
+    "country": "Bangladesh",
+    "phone": "+880 946 609 1448",
+    "image": "https://i.ibb.co/3WDMzDh/Saifuddin.jpg",
+    "job": "All-rounder"
+  }, {
+    "id": 15,
+    "name": "Mosaddek Hossain",
+    "gender": "Female",
+    "salary": "$4930.87",
+    "country": "Bangladesh",
+    "phone": "+880 188 899 1199",
+    "image": "https://i.ibb.co/f1D50WB/Mosaddek-Hossain.jpg",
+    "job": "Batsman"
+  }, {
+    "id": 16,
+    "name": "Taskin Ahmed",
+    "gender": "Female",
+    "salary": "$1704.20",
+    "country": "Bangladesh",
+    "phone": "+880 554 819 9461",
+    "image": "https://i.ibb.co/1drjQ5S/Taskin.jpg",
+    "job": "Bowler"
+  }]

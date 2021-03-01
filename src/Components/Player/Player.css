@@ -1,0 +1,23 @@
+.player-box{
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: lightskyblue;
+    color: navy;
+}
+.player-box img{
+    border-radius: 10px 10px 0 0;
+}
+.player-box h4, p{
+    margin: 0;
+    padding-bottom: 5px;
+}
+.btn-style{
+    padding: 8px 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: navy;
+    color: #fff;
+    font-size: 15px;
+}
