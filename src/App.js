@@ -28,8 +28,9 @@ function App() {
               <Team cart={cart}></Team>
           <div className="players-box container d-flex justify-content-center">
               {
-                players.map(player => <Player 
+                players.map(player => <Player
                   player = {player} 
+                  key ={player.id}
                   playerAddHandler={playerAddHandler}
                   ></Player>)
               }
