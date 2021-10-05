@@ -1,3 +1,3 @@
 #This is Cricket-team-app a simple App
 
-Live link: https://zealous-haibt-4323d4.netlify.app
+Live link: https://admiring-goldwasser-4fa252.netlify.app/
